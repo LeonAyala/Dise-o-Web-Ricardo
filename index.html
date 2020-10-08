@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!---------------------------------STYLE PRINCIPAL------------------------------------------->
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/estilos.css">
+	<!----------------------------------Main-------------------------------------------->
+	<link rel="stylesheet" href="css/contenido/contenido.css">
+	<!----------------------------------FOOTER STYLE-------------------------------------------->
+	<link rel="stylesheet" href="css/footer.css">
+	<!----------------------------------------SLIDER STYLES------------------------------------------>
+	<link rel="stylesheet" href="css/slider/flexslider.css">
+	<link rel="stylesheet" href="css/slider/font-awesome.css">
+
+	<title>Pagina de Compras</title>
+</head>
+<body>
+	<!--------------------------------------NAV MENU-------------------------------------------->
+
+	<nav class="menu" id="menu">
+		<div class="contenedor-menu contenedor-botones-menu">
+			<button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
+			<button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
+		</div>
+
+		<div class="contenedor-menu contenedor-enlaces-nav">
+			<div class="btn-departamentos" id="btn-departamentos">
+				<p>Informacion sobre el diseño web<span>Desplegar Aqui</span></p>
+				<i class="fas fa-caret-down"></i>
+			</div>
+
+			<div class="enlaces">
+				<a href="index.html">Inicio</a>
+
+				<a href="#">Cuenta</a>
+
+				<a href="#">Promociones</a>
+				
+				<a href="MesaRegalos.html">Portafolio</a>
+
+				<a href="#">Contacto</a>
+				
+			</div>
+		</div>
+
+		<div class="contenedor-menu contenedor-grid">
+			<div class="grid" id="grid">
+				<div class="categorias">
+					<button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+					<h3 class="subtitulo">Categorias</h3>
+
+					<a href="#" data-categoria="tecnologia-y-computadoras">Desarrollo Web<i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="libros">Web Responsiva<i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="ropa-y-accesorios">Posicionamiento SEO<i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="hogar-y-cocina">Clientes<i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="juegos-y-juguetes">Tendencias Tecnologicas<i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="salud-y-belleza">Negocios Electronicos<i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="alimentos-y-bebidas">Preguntas Frecuentes<i class="fas fa-angle-right"></i></a>
+				</div>
+
+				<div class="contenedor-subcategorias">
+					<div class="subcategoria " data-categoria="tecnologia-y-computadoras">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Desarrollo Web</h3>
+							<a href="#">Aprende qué es el diseño web y lo que hace un profesional de esta área</a>
+							<a href="#">¿Qué es el diseño web?</a>
+							<a href="#">¿Cuáles son los elementos clave del diseño web?</a>
+							<a href="#">¿Cuáles son las ventajas de invertir en un diseño web de calidad?</a>
+							<a href="#">¿Qué hace un diseñador web?</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/img-menu/tecnologia-banner-1.png" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/img-menu/tecnologia-galeria-1.png" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/tecnologia-galeria-2.png" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/tecnologia-galeria-3.png" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/tecnologia-galeria-4.png" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="libros">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Web Responsive</h3>
+							<a href="#">¿qué es exactamente un diseño web responsive?</a>
+							<a href="#">¿Por qué necesitas tener una web responsive?</a>
+							<a href="#">¿Qué elementos hay que tener en cuenta para diseñar un buen sitio responsive?</a>
+							<a href="#">Aplica el concepto mobile first</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/img-menu/responsive3.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/img-menu/responsive1.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/responsive2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/responsive4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/responsive5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="ropa-y-accesorios">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Posicionamiento SEO</h3>
+							<a href="#">¿Qué es el SEO o posicionamiento SEO?</a>
+							<a href="#">Por qué es importante el posicionamiento orgánico en la estrategia de tu negocio</a>
+							<a href="#">Tipos de SEO que existen en el posicionamiento web</a>
+							<a href="#">Conceptos relacionados con el posicionamiento en Google que debes conocer</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/img-menu/seo1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/img-menu/seo2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/seo3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/seo4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/seo5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="hogar-y-cocina">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Cliente</h3>
+							<a href="#">¿Cómo buscar y conseguir clientes y proyectos de diseño web?</a>
+							<a href="#">Conoce a tu cliente ideal ¡y atráelo!</a>
+							<a href="#">Haz que tu página web sea envidiable</a>
+							<a href="#">Sé claro y puntual con la audiencia</a>
+							<a href="#">Dedícale tiempo y cariño a tu blog</a>
+							<a href="#">Ofrece contenido fabuloso</a>
+							<a href="#">Crea una oferta o regalo de suscripción convincente</a>
+							<a href="#">Échale el ojo a los negocios locales</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/img-menu/cliente1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/img-menu/cliente2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/cliente3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/cliente4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/cliente5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="juegos-y-juguetes">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Tendencias Tecnologicas</h3>
+							<a href="#">¿Que es una Tendencia Tecnológica?</a>
+							<a href="#">Tecnologias Emergentes</a>
+							<a href="#">Tendencias Tcenologicas en todo el mundo</a>
+							<a href="#">Tendencias Tecnologicas en los ultimos años</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/img-menu/t1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/img-menu/t2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/t3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/t4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/t5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="salud-y-belleza">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Negocios Electronicos</h3>
+							<a href="#">¿Qué es el comercio electrónico?</a>
+							<a href="#">¿Cuáles son las características del comercio electrónico?</a>
+							<a href="#">¿Para qué sirve el comercio electrónico?</a>
+							<a href="#">¿Cuál es la historia del comercio electrónico?</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/img-menu/n1.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/img-menu/n2.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/n3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/n4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/n5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="alimentos-y-bebidas">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+							<h3 class="subtitulo">Preguntas Frecuentes</h3>
+							<a href="#">Has tus Preguntas</a>
+							<a href="#">Mejores Respuestas</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/img-menu/p2.jpg" alt="">
+							</a>
+						</div>
+
+						<div class="galeria-subcategoria">
+							<a href="#">
+								<img src="./img/img-menu/p1.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/p3.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/p4.jpg" alt="">
+							</a>
+							<a href="#">
+								<img src="./img/img-menu/p5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!--------------------------SLIDER PRINCIPAL-------------------------------->
+
+	<div class="contenedor-principal">
+	<h1 id="page-title">Diseños web</h1>
+	<div class="flexslider">
+		<ul class="slides">
+
+			<li>
+				<img src="img/img banner/1.jpg" alt="">
+				<section class="caption">
+					<h2></h2>
+				</section>
+			</li>
+
+			<li>
+				<img src="img/img banner/2.jpg" alt="">
+				<section class="caption">
+					<h2></h2>
+				</section>
+			</li>
+
+			<li>
+				<img src="img/img banner/3.jpg" alt="">
+				<section class="caption">
+					<h2></h2>
+				</section>
+			</li>
+
+		</ul>
+	</div>
+	
+	<!--------------------------MAIN CONTENIDO-------------------------------->
+
+		
+			<div class="header" id="inicio">
+				<img class="hamburguer" src="img/img main/hamburguesa.svg" alt="" >
+				<nav class="menu-main">
+					<ul><li><a href="#inicio">Inicio</a></li></ul>
+					<ul><li><a href="#servicio">Servicios</a></li></ul>
+					<ul><li><a href="#gallery">Gallery</a></li></ul>
+					<ul><li><a href="#expertos">Expecializados</a></li></ul>
+					<ul><li><a href="#contacto">Contacto</a></li></ul>	
+				</nav>
+
+				<div class="contenedor head">
+					<h1 class="titulo">Convertimos tus sueños en realidad</h1>
+					<p class="copy">Realizamos los mejores Diseños Web</p>
+				</div>
+			</div>
+			
+			<div class="main">
+				<section class="services contenedor" id="servicio">
+					<h2 class="subtitulo1">Nuestro Servicio</h2>
+					<div class="contenedor-servicio">
+						<img src="img/img main/checklist.svg" alt="">
+						<div class="checklist-servicio">
+							<div class="service">
+								<h3 class="n-service"><span class="number">1</span>Diseño Web</h3>
+								<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel illum alias, 
+									similique provident fugit consequatur earum aliquid recusandae eius nulla!</p>
+							</div>
+										
+							<div class="service">
+								<h3 class="n-service"><span class="number">2</span>Diseño Web</h3>
+								<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel illum alias, 
+									similique provident fugit consequatur earum aliquid recusandae eius nulla!</p>
+							</div>
+						
+							<div class="service">
+								<h3 class="n-service"><span class="number">3</span>Diseño Web</h3>
+								<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel illum alias, 
+									similique provident fugit consequatur earum aliquid recusandae eius nulla!</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="gallery" id="gallery">
+					<div class="contenedor">
+						<h2 class="subtitulo1">Gallery</h2>
+						<div class="contenedor-galeria">
+							<img src="img/img main/uno.jpg" alt="img" class="img-galeria">
+							<img src="img/img main/dos.jpg" alt="img" class="img-galeria">
+							<img src="img/img main/tres.jpg" alt="img" class="img-galeria">
+							<img src="img/img main/cuatro.jpg" alt="img" class="img-galeria">
+							<img src="img/img main/cinco.jpg" alt="img" class="img-galeria">
+							<img src="img/img main/seis.jpg" alt="img" class="img-galeria">
+							<img src="img/img main/cuatro.jpg" alt="img" class="img-galeria">
+							<img src="img/img main/cinco.jpg" alt="img" class="img-galeria">
+							<img src="img/img main/seis.jpg" alt="img" class="img-galeria">
+							
+							
+						</div>
+					</div>
+				</section>
+
+				<section class="imagen-light">
+					<img src="img/img main/bxs-x-circle.svg" alt="" class="close">
+					<img src="img/img main/woman.jpg" alt="" class="agregar-imagen">
+				</section>
+
+				<section class="contenedor" id="expertos">
+					<h2 class="subtitulo1">Expertos en:</h2>
+					<section class="experts">
+						<div class="cont-expert">
+							<img src="img/img main/pie_chart.svg" alt="">
+							<h3 class="n-expert">Analytics</h3>
+						</div>
+					
+					
+						<div class="cont-expert">
+							<img src="img/img main/search_engine.svg" alt="">
+							<h3 class="n-expert">SEO</h3>
+						</div>
+					
+					
+						<div class="cont-expert">
+							<img src="img/img main/security.svg" alt="">
+							<h3 class="n-expert">Security</h3>
+						</div>
+					</section>
+				</section>
+			</div>
+
+			<div class="contacto" id="contacto">
+				<div class="contenedor footer-content">
+					<div class="contact-us">
+						<h2 class="brand">Ricardo Leon</h2>
+						<p>Somos Expertos en la creacion de tus Sueños</p>
+					</div>
+					<div class="social-media">
+						<a href="#" class="social-media-icon">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+						
+						<a href="#" class="social-media-icon">
+							<i class="fab fa-twitter"></i>
+						</a>
+
+						<a href="#" class="social-media-icon">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</div>
+				</div>
+				<div class="line"></div>
+			</div>
+		</div>
+
+	<!--------------------------FOOTER-------------------------------->
+	<footer>
+       
+		<div class="container-footer-all">
+		 
+			 <div class="container-body">
+ 
+				 <div class="colum1">
+					 <h1>Mas informacion de la compañia</h1>
+ 
+					 <p>Con un Sitio Web podrás amplificar tu empresa, llevándola al siguiente nivel, 
+						 pudiendo brindar una imagen que logrará elevar la confianza de los clientes 
+						 y consumidores potenciales. Podrás tener nuevos canales de atención y de ventas 
+						 para tu organización.</p>
+ 
+				 </div>
+ 
+				 <div class="colum2">
+ 
+					 <h1>Redes Sociales</h1>
+ 
+					 <div class="row">
+						 <img src="icon/facebook.png">
+						 <label>Siguenos en Facebook</label>
+					 </div>
+					 <div class="row">
+						 <img src="icon/twitter.png">
+						 <label>Siguenos en Twitter</label>
+					 </div>
+					 <div class="row">
+						 <img src="icon/instagram.png">
+						 <label>Siguenos en Instagram</label>
+					 </div>
+					 <div class="row">
+						 <img src="icon/google-plus.png">
+						 <label>Siguenos en Google Plus</label>
+					 </div>
+					 <div class="row">
+						 <img src="icon/pinterest.png">
+						 <label>Siguenos en Pinteres</label>
+					 </div>
+ 
+ 
+				 </div>
+ 
+				 <div class="colum3">
+ 
+					 <h1>Informacion Contactos</h1>
+ 
+					 <div class="row2">
+						 <img src="icon/house.png">
+						 <label>Saga Falabella S.A. - 
+							 Av. Paseo de la República 3220 - 
+							 	San Isidro - Lima</label>
+					 </div>
+ 
+					 <div class="row2">
+						 <img src="icon/smartphone.png">
+						 <label>+51 972288931</label>
+					 </div>
+ 
+					 <div class="row2">
+						 <img src="icon/contact.png">
+						  <label>leonayalaricardo@gmail.com</label>
+					 </div>
+ 
+				 </div>
+ 
+			 </div>
+		 
+		 </div>
+		 
+		 <div class="container-footer">
+				<div class="footer">
+					 <div class="copyright">
+						 © 2017 Todos los Derechos Reservados | <a href="">Magtimus</a>
+					 </div>
+ 
+					 <div class="information">
+						 <a href="">Informacion Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+					 </div>
+				 </div>
+ 
+			 </div>
+		 
+	 </footer>
+	<!--------------------------ICONS-------------------------------->
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<!--------------------------MAIN PRINCIPAL-------------------------------->
+	<script src="js/main.js"></script>
+	<!--------------------------SCRIPT SLIDER-------------------------------->
+	<script src="js/slider/jquery-3.1.0.min.js"></script>
+	<script src="js/slider/jquery.flexslider.js"></script>
+	<script src="js/slider/main.js"></script>
+	<!--------------------------Main-------------------------------->
+	<script src="js/contenido/menu.js"></script>
+	<script src="js/contenido/contenido-galeria.js"></script>
+	
+</body>
+</html>
