@@ -88,13 +88,14 @@
     
 }
 
-
-
 .restablecer-contraseña{
     display: flex;
     justify-content: space-between;
-    margin: 5px;
-    color: #fff;
+    margin: 10px;
+    color: #ccc;
+}
+.restablecer-contraseña a{
+    color: #ccc;
 }
 @media screen and (max-width:992px){
 
@@ -123,9 +124,8 @@
     .grid-form__conteiner{
         display: grid;
         grid-template-areas: 
-        "colum1 colum1"
-        "colum2 colum2"
-        "boton  boton";
+        "colum1"
+        "boton";
         grid-gap: 5px;
     }
 
