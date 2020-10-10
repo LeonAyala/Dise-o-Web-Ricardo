@@ -17,7 +17,7 @@
 /* SLIDER ==============================*/
 
 .flexslider{
-	width: 100%;
+	width: 90%;
 	height: 450px;
 	border: 5px solid #fff;
 	border-radius: 8px;
@@ -25,6 +25,7 @@
 	display: flex;
 	flex-direction: column;
 	position: relative;
+	margin: auto;
 }
 
 .slides,
