@@ -109,3 +109,12 @@ window.onload = function(){
 	$('#onload').fadeOut();
 	$('body').removeClass('hidden');
 }
+
+//-------EFECTO DE MODO NOCTURNO/
+
+const btnSwitch = document.querySelector('#switch');
+
+btnSwitch.addEventListener('click', () => {
+	document.body.classList.toggle('dark');
+	btnSwitch.classList.toggle('active');
+})
