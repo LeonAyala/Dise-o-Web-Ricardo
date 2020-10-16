@@ -1,6 +1,5 @@
 .contenedor{
-    width: 80%;
-    max-width: 1200px;
+    width: 90%;
     overflow: hidden;
     margin: auto;
     padding: 60px 0;
@@ -10,38 +9,12 @@
     scroll-behavior: smooth;
 }
 
-.header{
-    height: 50vh;
-    width: 80%;
-    margin: auto;
-    background-image: linear-gradient(to top, hsla(258, 43%, 68%, 0.397) 0%, hsla(318, 88%, 87%, 0.397) 100%),url(../../img/img\ main/ImagenHeader.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-}
-
-.head{
-    text-align: center;
-    padding: 0;
-    height: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #fff;
-    margin-top: 40px;
-    /*justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #fff;*/
-}
 
 .hamburguer{
     position: fixed;
     top: 90px;
     right: 30px;
-    background: #fff;
+    background: rgb(255, 255, 255);
     width: 40px;
     height: 40px;
     cursor: pointer;
@@ -55,7 +28,7 @@
     top: 72px;
     right: 0;
     width: 20%;
-    background-image: linear-gradient(135deg, #667eeae5 0%, #764ba2e8 100%);
+    background:rgb(220, 223, 39);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -63,6 +36,9 @@
     box-shadow: 0 0 6px rgb(0, 0,0,.8);
     z-index: 600;
     transform: translate(110%);
+}
+body.dark .menu-main{
+    background-image: linear-gradient(135deg, #102eb4e5 0%, #420a7ae8 100%);
 }
 
 
@@ -81,14 +57,14 @@
     display: block;
     padding: 20px 0px;
     margin: 5px 0;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 25px;
-    border-top: 3px solid #fff;
+    border-top: 3px solid #000;
 }
 
 .menu-main li:before{
@@ -109,7 +85,7 @@
 }
 
 .menu-main li:hover{
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.2);
 }
 
 .menu-main ul:hover{
@@ -127,10 +103,16 @@
 }
 
 /*Nuestros servicios*/
+.contenedor-servicios{
+    background: #fff;
+    width: 90%;
+    margin: 30px auto 0 auto;
+    padding: 30px;
+}
 .subtitulo1{
     text-align: center;
     font-weight: 300;
-    color: #ffffff;
+    color: #000;
     margin-bottom: 40px;
     font-size: 40px;
 }
@@ -140,6 +122,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 
 .contenedor-servicio img{
@@ -152,12 +135,13 @@
 
 .service{
     margin-bottom: 20px;
-    color: #fff;
+    color: #000;
+    
 }
 
  .n-service{
      margin-bottom: 7px;
-     color: #fff;
+     color: #000;
  }
 
  .number{
@@ -173,9 +157,13 @@
      margin-right: 5px;
  }
 
+
  /*gallery*/
 
  .gallery{
+     width: 90%;
+     margin: auto;
+     background:#AED6F1;
  }
 
  .contenedor-galeria{
@@ -186,17 +174,22 @@
      height: 100%;
      max-height: 570px;
      overflow: auto;
+     
  }
  .contenedor-galeria::-webkit-scrollbar{
     width: 10px;
-	background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
  }
  .contenedor-galeria::-webkit-scrollbar-thumb{
-    background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
+    background:#D6EAF8 ;
     border: 1px solid #fff;
     
  }
-
+.contenedor-light{
+    background: #fff;
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+}
  .img-galeria{
      object-fit: cover;
      width: 30%;
@@ -230,13 +223,13 @@
      transition: transform .3s .2s; 
  }
  .showImage{
-     transform: scale(1);
+     transform: scale(0.7);
  }
 
  .close{
      position: absolute;
-     top: 15px;
-     right: 15px;
+     top: 100px;
+     right: 350px;
      width: 40px;
      cursor: pointer;
  }
@@ -264,76 +257,130 @@
      display: block;
      margin-top: 20px;
      font-weight: 400;
-     color: #fff;
+     color: #000;
  }
 
- /*Footer*/
 
- .contacto{
-     border: 3px solid #fff;
-     margin-bottom: 30px;
-     width: 80%;
-     margin: auto;
-     margin-bottom: 20px;
- }
+ /*---------------COLABORADORES----------------*/
+ .contenedor-de-galeria{
+    width: 90%;
+    margin: auto;
+    background:#AED6F1 ;
+}
 
- .footer-content{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     flex-wrap: wrap;
-     padding-top: 60px;
-     padding-bottom: 40px;
- }
+.titulo-directivo{
+    text-align: center;
+	font-size: 40px;
+	margin: 0 0 20px 0;
+}
 
- .contact-us{
-     width: 40%;
-     color: #fff;
- }
+.linea{
+    background: #000;
+    height: 5px;
+    width: 100%;
+    display: block;
+}
 
- .brand{
-     font-size: 500;
-     font-size: 40px;
- }
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 95%;
+    margin: auto;
+    grid-gap: 20px;
+    padding: 40px 0;
+    overflow: hidden;
+}
 
- .brand p{
-     font-weight: 500;
- }
+.galeria > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.7);
+}
 
- .social-media{
-     width: 50%;
-     display: flex;
-     justify-content: flex-end;
- }
+.galeria img{
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
 
- .social-media-icon{
-     display: inline-block;
-     margin-left: 20px;
-     width: 60px;
-     height: 60px;
-     border: 1px solid #fff;
-     border-radius: 50px;
-     text-align: center;
-     counter-reset: #fff;
- }
+.galeria a:hover img{
+    transform:scale(1.15);
+}
 
- .social-media-icon:hover{
-     background: #000;
- }
+.light-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: transform .3s ease-in-out;
+}
 
- .social-media-icon i{
-     font-size: 30px;
-     line-height: 60px;
-     color: #fff;
- }
+.light-box img{
+    width: 75vw;
+    max-height: 75vh;
 
- .line{
-     width: 100%;
-     height: 2px;
-     background: #fff;
-     margin-bottom: 60px;
-     
- }
+}
+.light-box:target{
+    transform: scale(1);
+}
+.descripcion-img{
+    display: flex;
+    background: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+}
+.descripcion-img h3{
+    color: #000;
+    margin: 30px 0;
+}
+.descripcion-img p{
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+}
+
+.close{
+    display: block;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    background: #851919;
+    color: #fff;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+.next{
+    display: block;
+    background: #851919;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 30px;
+}
+
+
+ 
 
 
  @media screen and (max-width:800px){
@@ -381,25 +428,84 @@
     .cont-expert{
         width: 80%;
     }
-    .footer-content{
-        justify-content: center;
-    }
-
-    .social-media{
-        width: 80%;
-        justify-content: space-evenly;
-    }
-
-    .social-media i{
-        margin-left: 0;
-    }
-
-    .contact-us{
-        text-align: center;
-        width: 80%;
-        margin-bottom: 40px;
-    }
+    
  }
+
+ /*--------------------NUESTROS CLIENTES-----------------------*/
+ .portafolio{
+	width: 100%;
+	max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.portafolio h3{
+	text-align: center;
+	font-size: 40px;
+	margin: 0 0 20px 0;
+}
+
+.portafolio-container{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.portafolio-item{
+	width: 30%;
+	position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.portafolio-img{
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.portafolio-text{
+	position: absolute;
+	bottom: 0;
+	padding: 20px;
+	background: rgba(0,0,0,0.7);
+	color: #fff;
+
+	-webkit-transform: translateY(100%);
+
+	-ms-transform: translateY(100%);
+
+	transform: translateY(100%);
+
+	-webkit-transition: all 0.5s ease-out;
+
+	transition: all 0.5s ease-out;
+}
+.portafolio-text h2{
+    color: #fff;
+}
+
+.portafolio-text p{
+    text-align: justify;
+    color: #fff;
+}
+
+.portafolio-item:hover .portafolio-text{
+	-webkit-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%);
+}
+
+.portafolio-item:hover .portafolio-img{
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
+}
 
  @media screen and (max-width:500px){
     .menu-main{
@@ -435,4 +541,40 @@
     .contact-us{
         width: 90%;
     }
+
+    .close{
+        position: absolute;
+        top: 130px;
+        right: 15px;
+        width: 40px;
+        cursor: pointer;
+    }
+    /*--------------------CLIENTES-----------------------*/
+
+.portafolio-container{
+    flex-direction: column;
+}
+
+.portafolio-item{
+	width: 100%;
+	position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+}
+/*--------------COLABORADORES---------------*/
+.close{
+    top: 150px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+
+}
+
+.next{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    margin: 0px;
+}
  }
