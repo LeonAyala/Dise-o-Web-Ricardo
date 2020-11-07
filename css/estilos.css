@@ -493,7 +493,7 @@ a {
 		justify-content: flex-start;
 		position: fixed;
 		left: 0;
-		background-image: linear-gradient(to top, #2d053ae5 0%, #8e5ec9ea 100%);
+		background:#AED6F1 ;
 		height: 100vh;
 		width: 80%;
 		z-index: 2000;
@@ -501,7 +501,7 @@ a {
 		transform: translate(-100%);
 	}
 	body.dark .menu .contenedor-enlaces-nav{
-		background-image: linear-gradient(to top, #2d053ae5 0%, #441480ea 100%);
+		background:#5892b9 ;
 	}
 
 	.menu .contenedor-enlaces-nav.activo {
@@ -545,10 +545,10 @@ a {
 	}
 
 	body.dark .grid .categorias{
-		background-image: linear-gradient(to top, #2d053ae5 0%, #441480ea 100%);
+		background:#5892b9 ;
 	}
 	body.dark .grid .enlaces-subcategoria{
-		background-image: linear-gradient(to top, #2d053ae5 0%, #441480ea 100%);
+		background:#5892b9 ;
 	}
 
 	.grid.activo {
